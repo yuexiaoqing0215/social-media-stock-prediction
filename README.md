@@ -1,8 +1,10 @@
-```markdown
+markdown
 # Sentiment-Aware Stock Movement Prediction with LSTM and Attention
 
 ![Python](https://img.shields.io/badge/Python-3.8%2B-blue)
-![License](https://img.shields.io/badge/License-MIT-green)
+![Framework](https://img.shields.io/badge/Framework-PyTorch-orange)
+![NLP](https://img.shields.io/badge/NLP-FinBERT-yellowgreen)
+![Dashboard](https://img.shields.io/badge/Dashboard-Streamlit-red)
 
 ## Abstract
 
@@ -28,6 +30,30 @@ This project proposes a **sentiment-aware deep learning framework** for predicti
 | Random Forest | 39.62% |
 
 The sentiment-aware model significantly outperforms all baselines, highlighting the benefit of incorporating sentiment data via attention.
+
+## Project Structure
+
+```
+sentiment-stock-prediction/
+├── A11_data/
+│   ├── data/
+│   │   ├── A0_reddit_zst/           # Raw Reddit data (compressed)
+│   │   ├── A1_top100_posts/         # Filtered top 100 daily posts
+│   │   ├── A2_sentiment_analysis/   # FinBERT sentiment labels
+│   │   ├── A3_daily_sentiment_score/# Daily weighted sentiment scores
+│   │   └── B1_stock_data/           # Historical stock data (TSLA)
+├── code/
+│   ├── A1_extract_top100_posts.ipynb     # Reddit data preprocessing
+│   ├── A2_sentiment_analysis.ipynb       # FinBERT sentiment analysis
+│   ├── A3_daily_sentiment_score.ipynb    # Daily sentiment aggregation
+│   ├── B1_stock_data.ipynb               # Stock data retrieval
+│   ├── C_stock_price_forecasting.ipynb   # LSTM regression models
+│   ├── D_directional_forecasting.ipynb   # LSTM classification models
+│   └── E_dashboard.py                    # Streamlit dashboard
+├── outputs/                         # Trained models & results
+├── README.md                        # Project overview (this file)
+└── requirements.txt                 # Python dependencies
+```
 
 ## Installation & Usage
 
@@ -83,4 +109,3 @@ This project is for academic purposes. Please cite the original authors of the d
 ## Contact
 
 For questions or collaborations, feel free to open an issue or contact yuexiaoqing0215@gmail.com.
-```
