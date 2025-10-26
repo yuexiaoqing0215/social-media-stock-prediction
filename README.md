@@ -102,6 +102,14 @@ streamlit run code/E_dashboard.py
   - Attention Layer: Weights important time steps.
   - Fully Connected Classifier: Predicts up/down movement.
 
+## Contributors
+
+- **Xiaoqing Yue** - Data preprocessing, sentiment analysis，LSTM model development
+- **Cheng Wing Sze (Celia)** - Baseline models, exploratory analysis, Streamlit dashboard
+- **Hongchao Wang** - LSTM model development, report consolidation  
+- **Woo Shirong (Ava)** - Data collection, literature review, project management
+- **Xiyue Wang** - Limitations, conclusion, literature review
+
 ## License
 
 This project is for academic purposes. Please cite the original authors of the data and models used (FinBERT, Yahoo Finance, Reddit via Academic Torrent).
