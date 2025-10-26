@@ -1,4 +1,4 @@
-```
+```markdown
 # Sentiment-Aware Stock Movement Prediction with LSTM and Attention
 
 ![Python](https://img.shields.io/badge/Python-3.8%2B-blue)
@@ -34,7 +34,7 @@ The sentiment-aware model significantly outperforms all baselines, highlighting 
 ## Project Structure
 
 ```
-.
+sentiment-stock-prediction/
 ├── A11_data/                         # Data directory
 │   ├── data/
 │   │   ├── A0_reddit_zst/            # Raw Reddit data (compressed)
@@ -116,18 +116,6 @@ streamlit run code/E_dashboard.py
 - Experiment with Transformer-based models (e.g., BERT, FinBERT).
 - Apply transfer learning and model ensembling.
 
-## Contributors
-
-- **Cheng Wing Sze (Celia)** – Baseline models, exploratory analysis, Streamlit dashboard.
-- **Hongchao Wang** – LSTM model development, report consolidation.
-- **Woo Shirong (Ava)** – Data collection, literature review, project management.
-- **Xiaoqing Yue** – Data preprocessing, sentiment analysis.
-- **Xiyue Wang** – Limitations, conclusion, literature review.
-
-## Acknowledgments
-
-We thank Professor Nan Ye for his guidance and encouragement throughout the project.
-
 ## License
 
 This project is for academic purposes. Please cite the original authors of the data and models used (FinBERT, Yahoo Finance, Reddit via Academic Torrent).
@@ -135,3 +123,4 @@ This project is for academic purposes. Please cite the original authors of the d
 ## Contact
 
 For questions or collaborations, feel free to open an issue or contact yuexiaoqing0215@gmail.com.
+```
