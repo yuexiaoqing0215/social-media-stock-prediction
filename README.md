@@ -6,6 +6,7 @@
 ![NLP](https://img.shields.io/badge/NLP-FinBERT-yellowgreen)
 ![Dashboard](https://img.shields.io/badge/Dashboard-Streamlit-red)
 
+
 ## Abstract
 
 This project proposes a **sentiment-aware deep learning framework** for predicting stock price movements. By integrating **Reddit-derived sentiment signals** into an **LSTM model enhanced with an attention mechanism**, we achieve up to **68% accuracy** in predicting the next day's price direction for Tesla stock (Mar 2024 - Mar 2025). The model outperforms traditional price-only models, demonstrating the value of social media sentiment in financial forecasting.
