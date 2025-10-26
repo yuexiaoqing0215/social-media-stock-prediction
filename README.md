@@ -6,11 +6,11 @@
 ![NLP](https://img.shields.io/badge/NLP-FinBERT-yellowgreen)
 ![Dashboard](https://img.shields.io/badge/Dashboard-Streamlit-red)
 
-## 📖 Abstract
+## Abstract
 
 This project proposes a **sentiment-aware deep learning framework** for predicting stock price movements. By integrating **Reddit-derived sentiment signals** into an **LSTM model enhanced with an attention mechanism**, we achieve up to **68% accuracy** in predicting the next day's price direction for Tesla stock (Mar 2024 - Mar 2025). The model outperforms traditional price-only models, demonstrating the value of social media sentiment in financial forecasting.
 
-## 🚀 Key Features
+## Key Features
 
 - **Dual-Modality Input**: Combines historical stock prices with daily aggregated sentiment scores from Reddit.
 - **Attention Mechanism**: Dynamically weights the importance of sentiment and price features over time.
@@ -18,7 +18,7 @@ This project proposes a **sentiment-aware deep learning framework** for predicti
 - **Interactive Dashboard**: Built with Streamlit for visualizing predictions and model performance.
 - **End-to-End Pipeline**: From data collection and sentiment analysis to model training and evaluation.
 
-## 📊 Results Summary
+## Results Summary
 
 | Model | Test Accuracy |
 |--------|----------------|
@@ -31,7 +31,7 @@ This project proposes a **sentiment-aware deep learning framework** for predicti
 
 The sentiment-aware model significantly outperforms all baselines, highlighting the benefit of incorporating sentiment data via attention.
 
-## 🗂️ Project Structure
+## Project Structure
 
 ```
 .
@@ -55,7 +55,7 @@ The sentiment-aware model significantly outperforms all baselines, highlighting 
 └── requirements.txt                  # Python dependencies
 ```
 
-## 🛠️ Installation & Usage
+## Installation & Usage
 
 ### 1. Clone the Repository
 ```bash
