@@ -102,20 +102,6 @@ streamlit run code/E_dashboard.py
   - Attention Layer: Weights important time steps.
   - Fully Connected Classifier: Predicts up/down movement.
 
-## Limitations
-
-- Sentiment data sourced only from Reddit (no Twitter/News).
-- Only post titles analyzed (excludes comments).
-- Limited to one year of data (Mar 2024 – Mar 2025).
-- Model trained only on Tesla stock; generalizability untested.
-
-## Future Work
-
-- Incorporate multi-platform sentiment (Twitter, news, YouTube).
-- Extend time horizon and include technical indicators.
-- Experiment with Transformer-based models (e.g., BERT, FinBERT).
-- Apply transfer learning and model ensembling.
-
 ## License
 
 This project is for academic purposes. Please cite the original authors of the data and models used (FinBERT, Yahoo Finance, Reddit via Academic Torrent).
